@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MemoryDev</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="NomLogo">Devcode.la</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NomLogo"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/logo"
+        android:autoLink="web"
+        android:layout_margin="5sp"
+        android:background="#000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit1"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+
+
+   <TableLayout
+        android:id="@+id/Tabla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/Fila1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Fila2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+
